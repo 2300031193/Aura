@@ -12,8 +12,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-# CSRF Trusted Origins
-CSRF_TRUSTED_ORIGINS = ['https://*.replit.app', 'https://*.replit.dev']
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-f722.up.railway.app']
+
 
 # Application definition
 INSTALLED_APPS = [

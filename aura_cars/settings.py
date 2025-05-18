@@ -10,7 +10,7 @@ SECRET_KEY = 'django-insecure-@uzmcj2^kl5ncu&6m$tgxf0w!68=z#-r7xrr+$_h#9nn^7=d-s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', '.replit.app', '.replit.dev', '*']
+ALLOWED_HOSTS = ['*']
 
 # CSRF Trusted Origins
 CSRF_TRUSTED_ORIGINS = ['https://*.replit.app', 'https://*.replit.dev']
@@ -104,3 +104,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')

@@ -13,7 +13,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://web-production-f722.up.railway.app']
+    'aura-usl-chaitanya.up.railway.app']
 
 
 # Application definition
